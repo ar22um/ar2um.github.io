@@ -1,0 +1,53 @@
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;padding: 0;border: 0;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+ol, ul {list-style: none;}
+table {border-collapse: collapse;border-spacing: 0;}
+
+.clearfix:after{display: block;content: '';clear: both;}
+.ca-container{position: relative;width: 980px;margin:0 auto;}
+a{text-decoration: none;}
+
+/* layout*/
+.wrap{}
+.header{position: relative;z-index: 30;}
+.container{position: relative;z-index: 20;min-height: 900px;}
+.footer{position: relative;z-index: 10;}
+
+/*quick_box*/
+#quick_box {background-color: #5D5147;}
+#btn_quick_view{position: absolute;right: 0;top: 10px;display: inline-block;padding: 12px;}
+#btn_quick_view{display: block;}
+#btn_quick_view.off{display: none;}
+#btn_quick_view .ir{display: block;width: 72px;height: 13px;text-indent: -9999px;background-image: url(../img/btn_quick_view.png);}
+.quick_box_list:after{display: block;clear: both;content: '';}
+.quick_box_list li{float: left;}
+.quick_box_list a{display: block;height: 26px;line-height: 26px;padding:15px ;color: #fff;}
+#btn_quick_close{display: none;}
+#btn_quick_close.on{display: block;}
+.visual-container{margin:0 auto;}
+.visual{height:465px ;background-position: center 0;}
+.visual-0{background-image: url(../img/bg_visual_spring.jpg);}
+.visual-1{background-image: url(../img/bg_visual_1conomic.jpg)}
+.visual-2{background-image: url(../img/bg_visual_liivmate.jpg)}
+.visual-3{background-image: url(../img/bg_visual_liiv_201701.jpg)}
+.visual-4{background-image: url(../img/bg_visual_mymoney_201701.jpg)}
+/* bx-theme */
+.bx-wrapper {
+  -moz-box-shadow: 0 0 0px #ccc;
+  -webkit-box-shadow: 0 0 0px #ccc;
+  box-shadow: 0 0 0px #ccc;
+  border: 0px solid #fff;
+  background: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
